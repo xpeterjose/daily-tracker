@@ -205,7 +205,7 @@ body {
     min-width: 40px;
     justify-content: center;
   }
-
+}
 @media (max-width: 640px) {
   .stats-card-container {
     flex-direction: column !important;
