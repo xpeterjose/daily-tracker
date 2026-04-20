@@ -44,7 +44,7 @@ export default function Header({ onAddTask }: HeaderProps) {
             <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
-        <span style={{ fontSize: 17, fontWeight: 700 }} className="gradient-text mobile-hide">Daily Tracker</span>
+        <span style={{ fontSize: 17, fontWeight: 700 }} className="gradient-text mobile-hide">LifeTrack</span>
       </div>
 
       {/* Right side */}

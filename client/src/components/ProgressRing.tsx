@@ -14,8 +14,8 @@ export default function ProgressRing({ total, completed, size = 120 }: ProgressR
 
   const getColor = () => {
     if (percentage === 100) return ['#10b981', '#059669'];
-    if (percentage >= 50) return ['#7c3aed', '#6d28d9'];
-    return ['#a78bfa', '#7c3aed'];
+    if (percentage >= 50) return ['#2563eb', '#1d4ed8'];
+    return ['#38bdf8', '#2563eb'];
   };
   const [color1, color2] = getColor();
 

@@ -73,8 +73,8 @@ export default function AddTaskModal({ isOpen, onClose, onSubmit, selectedDate, 
           >
             <div style={{
               width: '100%', maxWidth: 480,
-              background: '#0d1120',
-              border: '1px solid rgba(124,58,237,0.25)',
+              background: 'var(--bg-secondary)',
+              border: '1px solid rgba(37,99,235,0.25)',
               borderRadius: 24,
               padding: '32px',
               boxShadow: '0 24px 80px rgba(0,0,0,0.6)',

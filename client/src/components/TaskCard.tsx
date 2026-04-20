@@ -75,10 +75,10 @@ export default function TaskCard({ task, onToggle, onDelete, onEdit }: TaskCardP
           {task.startTime && (
             <div style={{
               display: 'inline-flex', alignItems: 'center', gap: 4,
-              padding: '2px 8px', borderRadius: 6,
-              background: 'rgba(124,58,237,0.1)',
-              border: '1px solid rgba(124,58,237,0.2)',
-              fontSize: 11, fontWeight: 700, color: '#a78bfa',
+              padding: '2px 8px', borderRadius: 10,
+              background: 'rgba(37,99,235,0.12)',
+              border: '1px solid rgba(37,99,235,0.25)',
+              fontSize: 11, fontWeight: 700, color: '#38bdf8',
               flexShrink: 0,
             }}>
               <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -129,8 +129,8 @@ export default function TaskCard({ task, onToggle, onDelete, onEdit }: TaskCardP
             transition: 'all 0.15s ease',
           }}
           onMouseEnter={e => {
-            (e.currentTarget as HTMLElement).style.borderColor = 'rgba(124,58,237,0.4)';
-            (e.currentTarget as HTMLElement).style.color = '#a78bfa';
+            (e.currentTarget as HTMLElement).style.borderColor = 'rgba(37,99,235,0.4)';
+            (e.currentTarget as HTMLElement).style.color = '#38bdf8';
           }}
           onMouseLeave={e => {
             (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)';

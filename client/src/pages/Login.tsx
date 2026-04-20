@@ -73,7 +73,7 @@ export default function Login() {
           style={{ fontSize: 28, fontWeight: 800, marginBottom: 8 }}
           className="gradient-text"
         >
-          Daily Tracker
+          LifeTrack
         </motion.h1>
 
         <motion.p

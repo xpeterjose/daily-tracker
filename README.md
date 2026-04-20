@@ -1,4 +1,4 @@
-# Daily Tracker 📋
+# LifeTrack 📋
 
 A full-stack daily task management app with Google OAuth authentication.
 

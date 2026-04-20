@@ -142,9 +142,9 @@ export default function Dashboard() {
           className="stats-card-container"
           style={{
             display: 'flex', alignItems: 'center', gap: 24,
-            padding: '24px 28px', borderRadius: 20,
-            background: 'linear-gradient(135deg, rgba(124,58,237,0.12), rgba(109,40,217,0.06))',
-            border: '1px solid rgba(124,58,237,0.2)',
+            padding: '24px 28px', borderRadius: 24,
+            background: 'linear-gradient(135deg, rgba(37,99,235,0.12), rgba(29,78,216,0.06))',
+            border: '1px solid rgba(37,99,235,0.25)',
             marginBottom: 28,
           }}
         >
@@ -163,7 +163,7 @@ export default function Dashboard() {
                 <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>Done</p>
               </div>
               <div>
-                <p className="stats-number" style={{ fontSize: 28, fontWeight: 800, color: '#a78bfa', lineHeight: 1 }}>{total - completed}</p>
+                <p className="stats-number" style={{ fontSize: 28, fontWeight: 800, color: '#38bdf8', lineHeight: 1 }}>{total - completed}</p>
                 <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 2 }}>Left</p>
               </div>
             </div>
@@ -182,7 +182,7 @@ export default function Dashboard() {
                   height: '100%', borderRadius: 3,
                   background: completed === total && total > 0
                     ? 'linear-gradient(90deg, #10b981, #059669)'
-                    : 'linear-gradient(90deg, #7c3aed, #a78bfa)',
+                    : 'linear-gradient(90deg, #2563eb, #38bdf8)',
                 }}
               />
             </div>
@@ -273,10 +273,10 @@ export default function Dashboard() {
           style={{
             position: 'fixed', bottom: 28, right: 28,
             width: 56, height: 56, borderRadius: '50%',
-            background: 'linear-gradient(135deg, #7c3aed, #6d28d9)',
+            background: 'linear-gradient(135deg, #2563eb, #1d4ed8)',
             border: 'none', cursor: 'pointer', color: 'white',
             fontSize: 24, display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: '0 8px 32px rgba(124,58,237,0.5)',
+            boxShadow: '0 8px 32px rgba(37,99,235,0.5)',
           }}
         >
           +

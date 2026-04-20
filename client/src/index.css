@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --bg-primary: #080b14;
-  --bg-secondary: #0d1120;
-  --bg-card: rgba(255, 255, 255, 0.04);
-  --bg-card-hover: rgba(255, 255, 255, 0.07);
+  --bg-primary: #020617;
+  --bg-secondary: #070a1a;
+  --bg-card: rgba(255, 255, 255, 0.03);
+  --bg-card-hover: rgba(255, 255, 255, 0.06);
   --border: rgba(255, 255, 255, 0.08);
-  --border-hover: rgba(139, 92, 246, 0.4);
-  --accent-primary: #7c3aed;
-  --accent-secondary: #a78bfa;
-  --accent-glow: rgba(124, 58, 237, 0.3);
-  --text-primary: #f1f5f9;
+  --border-hover: rgba(37, 99, 235, 0.4);
+  --accent-primary: #2563eb;
+  --accent-secondary: #38bdf8;
+  --accent-glow: rgba(37, 99, 235, 0.3);
+  --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
   --text-muted: #475569;
   --success: #10b981;
@@ -60,7 +60,7 @@ body {
 
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 50%, #c4b5fd 100%);
+  background: linear-gradient(135deg, #38bdf8 0%, #2563eb 50%, #7dd3fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -68,10 +68,10 @@ body {
 
 /* Button styles */
 .btn-primary {
-  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
   color: white;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 12px 24px;
   font-size: 15px;
   font-weight: 600;
@@ -83,7 +83,7 @@ body {
 .btn-primary:hover {
   transform: translateY(-1px);
   box-shadow: 0 8px 30px var(--accent-glow);
-  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
 }
 
 .btn-primary:active {
@@ -148,9 +148,9 @@ body {
 }
 
 .checkbox-custom.checked {
-  background: linear-gradient(135deg, #7c3aed, #6d28d9);
-  border-color: #7c3aed;
-  box-shadow: 0 0 12px rgba(124, 58, 237, 0.5);
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-color: #2563eb;
+  box-shadow: 0 0 12px rgba(37, 99, 235, 0.5);
 }
 
 /* Animations */

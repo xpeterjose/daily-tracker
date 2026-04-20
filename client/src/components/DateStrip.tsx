@@ -33,33 +33,33 @@ export default function DateStrip({ selectedDate, onSelectDate }: DateStripProps
             style={{
               display: 'flex', flexDirection: 'column', alignItems: 'center',
               padding: '10px 14px', borderRadius: 14, cursor: 'pointer',
-              border: isSelected ? '1px solid #7c3aed' : '1px solid rgba(255,255,255,0.08)',
+              border: isSelected ? '1px solid #2563eb' : '1px solid rgba(255,255,255,0.08)',
               background: isSelected
-                ? 'linear-gradient(135deg, rgba(124,58,237,0.3), rgba(109,40,217,0.2))'
+                ? 'linear-gradient(135deg, rgba(37,99,235,0.3), rgba(29,78,216,0.2))'
                 : 'rgba(255,255,255,0.03)',
               minWidth: 60,
-              boxShadow: isSelected ? '0 4px 20px rgba(124,58,237,0.3)' : 'none',
+              boxShadow: isSelected ? '0 4px 20px rgba(37,99,235,0.3)' : 'none',
               transition: 'all 0.2s ease',
             }}
           >
             <span style={{
               fontSize: 10, fontWeight: 600, textTransform: 'uppercase',
               letterSpacing: '0.05em',
-              color: isSelected ? '#a78bfa' : 'var(--text-muted)',
+              color: isSelected ? '#38bdf8' : 'var(--text-muted)',
               marginBottom: 4,
             }}>
               {format(day, 'EEE')}
             </span>
             <span style={{
               fontSize: 18, fontWeight: 700,
-              color: isSelected ? '#a78bfa' : isToday ? 'var(--text-primary)' : 'var(--text-secondary)',
+              color: isSelected ? '#38bdf8' : isToday ? 'var(--text-primary)' : 'var(--text-secondary)',
             }}>
               {format(day, 'd')}
             </span>
             {isToday && (
               <div style={{
                 width: 4, height: 4, borderRadius: '50%',
-                background: isSelected ? '#a78bfa' : '#7c3aed',
+                background: isSelected ? '#38bdf8' : '#2563eb',
                 marginTop: 4,
               }} />
             )}
